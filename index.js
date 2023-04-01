@@ -4,7 +4,7 @@ const app = express();
 
 
 // route
-app.get((req,res)=>{
+app.get("/",(req,res)=>{
   res.status(200).json({message:"ok",data:"This is a data...."})
 })
 
