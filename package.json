@@ -1,0 +1,19 @@
+{
+  "name": "node-express-mongodb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SayedHassan-Hussaini/node-express-mogodb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SayedHassan-Hussaini/node-express-mogodb/issues"
+  },
+  "homepage": "https://github.com/SayedHassan-Hussaini/node-express-mogodb#readme"
+}
