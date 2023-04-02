@@ -1,16 +1,16 @@
 
 exports.getPost=(req,res)=>{
-  res.status(200).jason({message:"get all post"})
+  res.status(200).json({message:"get all post"})
 };
 exports.createPost=(req,res)=>{
-    res.status(200).jason({message:"Create post"})
+    res.status(200).json({message:"Create post"})
   };
   exports.updatePost=(req,res)=>{
-    res.status(200).jason({message:"Update post"})
+    res.status(200).json({message:"Update post"})
   };
   exports.deletePost=(req,res)=>{
-    res.status(200).jason({message:"delete post"})
+    res.status(200).json({message:"delete post"})
   };
   exports.findPost=(req,res)=>{
-    res.status(200).jason({message:"Find post"})
+    res.status(200).json({message:"Find post"})
   };

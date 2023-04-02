@@ -8,7 +8,4 @@ app.use(express.json());
 // route
 app.use('/api/v1/post',postRouter)
 
-const port = 5000;
-app.listen(port, () => {
-  console.log(`Server is ready to port ${port}....`);
-});
+module.exports=app
